@@ -1,0 +1,140 @@
+*{
+    font-family: Roboto Slab ;
+    padding: 0;
+    margin: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+
+body{
+    height: 100vh;
+    padding: 32px;
+    position: relative;
+    height: 100vh;
+    background-image: url(images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+.sideNav{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.topNav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+button{
+    padding: 0px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.bottomNav{
+    display: flex;
+    justify-content: space-around;
+}
+.topNav h3{
+    font-weight: 400;
+    color: white;
+}
+.topNav h3:hover{
+    color: orange;
+}
+.bottomNav h3{
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+#mainTitle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+#mainTitle p{
+    font-size: 30px;
+    color: white;
+}
+#person{
+    margin: 50px;
+    position: relative;
+    color: blue;
+}
+.logo p{
+    color: white;
+    text-align: center;
+}
+
+#athletics:hover,#news:hover,#about:hover,#online:hover{
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}
+#inquire:hover,#visit:hover,#apply:hover,#match:hover{
+    background-color: orange;
+}
+#inquire a,#visit a,#apply a,#match a{
+    color: white;
+}
+#inquire{
+    background-color: blue;
+}
+#visit{
+    background-color: navy;
+}
+#apply{
+    background-color: navy;
+}
+#match{
+    background-color: blue;
+}
+#_person{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: navy;
+    position: relative;
+
+}
+#search{
+    color: white;
+}
+#popUp{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: fit-content;
+    background-color: white;
+    padding: 20px;
+
+}
+#imageTab img{
+    width: 200px;
+    height: 200px;
+}
+#imageTab{
+    display: flex;
+    justify-content: space-evenly;
+}
+#campus{
+    text-align: center;
+}
+#admission{
+    text-align: center;
+}
+#academic{
+    text-align: center;
+}
